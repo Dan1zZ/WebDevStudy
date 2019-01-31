@@ -1,0 +1,19 @@
+#early {
+	color: white;
+	background: black
+}
+
+#alice_in_chains {
+	color: #fff;
+	background: #010000
+}
+
+.final_years h2 {
+	color: rgb(251, 251, 251);
+	background: rgb(0, 0, 0);
+}
+
+.links h2 {
+	color: rgba(251, 251, 251, 1);
+	background: rgba(0, 0, 0, 1);
+}
