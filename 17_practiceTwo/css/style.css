@@ -1,0 +1,61 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Fahkwang|Raleway|ZCOOL+KuaiLe');
+.head1 {
+	text-align: center;
+	color: MediumBlue;
+	font-size: 50px;
+	background-color: silver;
+	font-family: 'Fahkwang', sans-serif;
+	text-shadow: 0px 0px 5px black;	
+}
+
+.image_block {
+	height: 200px;
+	background-image: url(../img/Pythag_anim.gif);
+}
+
+.head2 {
+	line-height: 50px;
+	text-align: center;
+	color: MediumBlue;
+	background-color: silver;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	text-shadow: 0px 0px 5px black;	
+	font-size: 18px;
+}
+
+.foot {
+	text-align: center;
+	line-height: 50px;
+	font-size: 40px;
+	color: MediumBlue;
+	font-family: 'Raleway', sans-serif;
+}
+
+.phaseOne {
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.phaseTwo {
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	color: MediumBlue;
+}
+
+.phaseThree {
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.lastPhase {
+	line-height: 50px;
+	text-align: center;
+	color: MediumBlue;
+	background-color: silver;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	text-shadow: 0px 0px 5px black;	
+	font-size: 18px;
+}

@@ -1,0 +1,8 @@
+@font-face {
+	src: url(../font/Oswald-Medium.ttf);
+	font-family: 'Oswald-Medium'
+}
+
+.heading h1 {
+	font-family: 'Oswald-Medium'
+}
