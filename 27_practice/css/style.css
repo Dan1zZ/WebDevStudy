@@ -1,0 +1,62 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Fahkwang');
+
+.header {
+height: 400px;
+position: relative;
+margin-left: 30px;
+margin-top: 50px;
+padding: 20px 20px;
+vertical-align: top;
+}
+
+.mainText {
+position: fixed;
+z-index: 1;
+left: 350px;
+font-size: 20px;
+top: 0px;
+}
+
+.logo {
+height: 30px;
+width: 35px;
+position: fixed;
+z-index: 1;
+left: 610px;
+top: 0px;
+}
+
+.nomainText {
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 20px;
+background-color: lightblue;
+color: white;
+font-family: 'Fahkwang', sans-serif;
+text-align: center;
+}
+
+.Burj_Khalifa, .Tokyo_Skytree, .Shanghai_Shanghai_Tower {
+height: 400px;
+width: 266px;
+}
+
+.div1, .div2, .div3 {
+margin-left: 45px;
+}
+
+.first {
+position: absolute;
+left: 0px;
+}
+
+.second {
+position: absolute;
+left: 300px;
+}
+
+.third {
+position: absolute;
+left: 600px;
+}
