@@ -1,0 +1,63 @@
+@import url(reset.css);
+
+.body {
+margin: auto;
+}
+
+.img {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-end;
+}
+
+.headest {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-end;
+}
+
+.disc {
+	margin: 10px;
+	text-align: center;
+}
+
+.bio {
+	margin: 10px;
+	text-align: center;
+	padding: 20px 20px;
+	font-family: 'Fahkwang', sans-serif;
+text-shadow: 5px 5px 20px;
+border: solid;
+border-radius: 50%;
+}
+
+
+.third, .fourth {
+	height: 300px;
+	width: 300px;
+}
+
+.yannis {
+		display: flex;
+		margin: 10px;
+		text-align: center;
+	padding: 10px 10px;
+		font-family: 'Fahkwang', sans-serif;
+text-shadow: 5px 5px 20px;
+border: solid;
+}
+
+.head {
+	width: 86px;
+	height: 130px;
+}
+
+.name {
+	align-self: flex-start;
+}
