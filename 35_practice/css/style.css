@@ -1,0 +1,37 @@
+@keyframes moving {
+100% {transform: rotate(-360deg);}
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+	position: relative;
+	background-image: url(http://pa7lux.ru/mcs/space_pattern.jpg);
+}
+.sun {
+	width: 300px;
+	height: 300px;
+	background-image: url(http://pa7lux.ru/mcs/sun.png);
+	background-size: cover;
+	margin: auto;
+	position: fixed;
+	top: 23vw;
+	left: 90vh;
+}
+.earth {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	animation-name: moving;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	top: 50%;
+	left: 50%;
+	margin: auto;
+	margin-top: -200px;
+	margin-left: -200px;
+	transform-origin: 300px 300px;
+}
