@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html land="ru">
+<head>
+	<title>Boilerplate</title>
+	<meta charset="utf-8">
+	<meta description="boilerplate code">
+	<meta keywords="boilerplate, test">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+  <form>
+  	<fieldset class="type">
+      <legend class="contact">Контактная информация<br>
+  	    <label for="firstname">Как нам к вам обращаться?</label><br>
+        <input type="text" name="firstname" required placeholder="Ваше имя">
+        <input type="text" name="contract" required placeholder="Номер договора"><br>
+      </legend>
+    </fieldset>
+    <fieldset>
+        <legend class="front">
+        <label for="feedback">Опишите возникшую проблему:</label>
+        <input type="text" placeholder="Ваша проблема"><br>
+        <label for="datetime-local">Укажите день и время, когда нам с вами лучше связаться:</label><br>
+        <input type="date" name="date">
+        <input type="time" name="time"><br>
+        <label for="question two">Как мы можем с вами связаться?</label><br>
+        <input type="radio" name="question two" value="tel"> <span>По телефону</span> <input type="tel" name="tel" placeholder="номер телефона">
+        <input type="radio" name="question two" value="email"> <span>По почте</span> <input type="email" name="email" placeholder="адрес почты">
+        <input type="radio" name="question two" value="other"> <span>Иначе</span> <input type="text" name="text" placeholder="указать способ">
+        </legend>
+    </fieldset>
+    <fieldset>
+      <legend>Нам важно ваше мнение<br>
+      <label for="question one">Оцените, пожалуйста, наш сайт:</label><br>
+      <span>Долго разбирался</span><input type="range" name="question one" min="1" max="3"><span>Интуитивно понятно</span>
+      <label for="comment"></label><br>
+      <textarea name="message">Что по вашему мнению не хватает</textarea></legend>
+    </fieldset>
+    <fieldset class="type">
+      <input type="submit">
+      <input type="reset">
+    </fieldset>
+  </form>
+</body>
+</html>
