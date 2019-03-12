@@ -2,14 +2,15 @@
 
 .body {
 	font-family: Arial, Helvetica, sans-serif;
-	display: block;
+	display: flex;
+	justify-content: center;
 }
 
 legend {
-	width: 35%;	
+	width: 85%;	
 	font-size: 30px;
-	border: 1px solid black;
-
+	border: 2px solid black;
+	margin: 20px;
 }
 
 span {
@@ -27,4 +28,8 @@ background: lightgrey;
 textarea {
 	height: 40px;
 	width: 90%;
+}
+
+.type {
+	position: relative;
 }
